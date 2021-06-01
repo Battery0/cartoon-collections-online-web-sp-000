@@ -33,5 +33,5 @@ def find_the_cheese(array)
 end
 
 def find_the_cheese(array)
-  array.find?("cheddar")
+  array.find? { |element| element == "cheddar" || element == "goudar" || element == "camembert" }
 end
