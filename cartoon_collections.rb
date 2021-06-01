@@ -31,3 +31,15 @@ def find_the_cheese(array)
     nil
   end
 end
+
+def find_the_cheese(array)
+  if array.include?("cheddar")
+    "cheddar"
+  elsif array.include?("goudar")
+    "gouda"
+  elsif array.include?("camembert")
+    "camembert"
+  else
+    nil
+  end
+end
