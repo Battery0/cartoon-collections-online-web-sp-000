@@ -33,7 +33,5 @@ def find_the_cheese(array)
 end
 
 def find_the_cheese(array)
-  array.include?("cheddar")
-    "cheddar"
-
+  array.find?("cheddar")
 end
