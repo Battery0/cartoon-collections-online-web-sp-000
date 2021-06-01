@@ -30,7 +30,7 @@ def find_the_cheese(array)
     "cheddar"
   elsif array.include?("goudar")
     "gouda"
-  elsif
+  elsif array.include?("camembert")
     "camembert"
   else
     nil
